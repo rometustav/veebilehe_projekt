@@ -1,0 +1,108 @@
+body {
+    font-family: 'Raleway';
+    background-color: #F1EFE9;
+    
+}
+
+
+.menüü {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ADB6C4;
+    padding: 20px;
+    border-bottom: 3px solid #515357;
+    position: relative; /* Lisame siia, et `.menüü-asjad` positsioonimisel baasiks oleks `.menüü` konteiner */
+}
+
+.menüü-asjad {
+    display: flex;
+    gap: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menüü-asi, .logo {
+    color: #272829;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menüü-asi {
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 18px;
+    margin-right: 10px;
+} 
+
+.Toitumine {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    width: 60%;
+    height: 400px;
+    
+    
+}
+#toit_pealkiri {
+    text-align: center;
+}  
+
+.Treenimine {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    width: 60%;
+    height: 1700px;
+}
+
+.Treenimine h1{
+    color:#272829;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.Treenimine h2 {
+    color:#272829;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Treenimine h3 {
+    color:#272829;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.Treenimine p2 {
+    color:#272829;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.Treenimine .divider {
+    border-top: 1px solid #272829;
+    margin: 30px
+}
+
+
+#keskel {
+    text-align: center;
+}  
+
