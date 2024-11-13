@@ -25,14 +25,11 @@ body {
     color: #272829;
     font-weight: bold;
     text-decoration: none;
-}
-
-.menüü-asi {
     font-size: 16px;
 }
 
 .logo {
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 10px;
 } 
 
@@ -43,13 +40,22 @@ body {
     flex-direction: column;
     background-color: #D9D9D9;
     width: 60%;
-    height: 400px;
+    height: 380px;
     border-bottom: 1px solid #515357;
+    line-height: 1.6;
+    color: #515357;
+    font-size: 18px;
 }
 
 #toit_pealkiri {
     text-align: center;
+    color:#272829
+    
 }  
+#toit_tabel_pealkiri {
+    color: #272829;
+}
+
 
 .Säilitamine {
     display: flex;
@@ -58,13 +64,20 @@ body {
     flex-direction: row;
     background-color: #D9D9D9;
     width: 60%;
-    height: 400px; 
+    height: 350px; 
+    border-bottom: 1px solid #515357;
 }
 
+.säilitamise_info p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #515357;
+}
 
 .tabel1 {
     width: 100%;
 }
+
 .tabel1 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -76,4 +89,101 @@ body {
     border:2px solid #272829;
     padding: 0;
     margin: 0; 
+}
+
+
+.Juurde_võt {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-direction: row;
+    background-color: #D9D9D9;
+    width: 60%;
+    height: 335px;
+    border-bottom: 1px solid #515357;
+}
+.juurde_võtmise_info {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #515357;
+
+} 
+
+#Juurde_võtmise_pealkiri{
+    color:#272829;
+}
+.tabel2 {
+    width: 100%;
+}
+.tabel2 table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tabel2 td, .tabel2 th {
+    background-color: #61677A;
+    color:#F1EFE9;
+    border:2px solid #272829;
+    padding: 0;
+    margin: 0; 
+}
+
+.Langetamine {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-direction: row;
+    background-color: #D9D9D9;
+    width: 60%;
+    height: 350px; 
+    border-bottom: 1px solid #515357;
+
+}
+.langetamise_info {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #515357;
+}
+
+.langetamise_pealkiri {
+    color: #272829;
+}
+
+.tabel3 {
+    width: 100%;
+    
+}
+.tabel3 table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tabel3 td, .tabel3 th {
+    background-color: #61677A;
+    color:#F1EFE9;
+    border:2px solid #272829;
+    padding: 0;
+    margin: 0; 
+}
+
+.footer{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    background: #ADB6C4;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    margin: 0 15px;
+}
+
+.footer img{
+    margin: auto;
+    padding-right: 20px;
+    width: 100px;
+    height: 100px;
 }
