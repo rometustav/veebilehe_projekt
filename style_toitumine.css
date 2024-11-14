@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     background-color: #D9D9D9;
     width: 60%;
-    height: 380px;
+    height: 500px;
     border-bottom: 1px solid #515357;
     line-height: 1.6;
     color: #515357;
@@ -64,7 +64,7 @@ body {
     flex-direction: row;
     background-color: #D9D9D9;
     width: 60%;
-    height: 350px; 
+    height: 500px; 
     border-bottom: 1px solid #515357;
 }
 
@@ -99,7 +99,7 @@ body {
     flex-direction: row;
     background-color: #D9D9D9;
     width: 60%;
-    height: 335px;
+    height: 500px;
     border-bottom: 1px solid #515357;
 }
 .juurde_võtmise_info {
@@ -135,8 +135,8 @@ body {
     flex-direction: row;
     background-color: #D9D9D9;
     width: 60%;
-    height: 350px; 
-    border-bottom: 1px solid #515357;
+    height: 500px; 
+    
 
 }
 .langetamise_info {
@@ -168,9 +168,10 @@ body {
 
 .footer{
     display: flex;
-    height: fit-content;
+    height: 100%;
     width: 100%;
     background: #ADB6C4;
+    border-top: #272829 1px solid;
 }
 
 .footer ul{
@@ -184,6 +185,6 @@ body {
 .footer img{
     margin: auto;
     padding-right: 20px;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
