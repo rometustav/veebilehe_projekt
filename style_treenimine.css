@@ -79,7 +79,7 @@ body {
     margin: 0 auto;
     flex-direction: column;
     background-color: #D9D9D9;
-    width: 900px;
+    width: 1200px;
     height: 100%;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .videodiv video {
-    width: 900px;
+    width: 1200px;
     height: auto;
 }
 
@@ -164,9 +164,12 @@ body {
 
 
 .Treenimine .divider {
-    border-top: 2px solid #4F505B;
-    margin: 30px auto;
-    width: 85%;
+    display: block;
+    width: 1000px;
+    height: 4px;
+    background-color: #ADB6C4;
+    margin: 40px auto;
+    border-radius: 2px;
 }
 
 
@@ -243,4 +246,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.reveal {
+    opacity: 0.2;
+    transform: translateY(40px);
+    position: relative;
+    transition: all 1s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
 }
