@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="javascript/toitumine.js"></script>
     <link rel="stylesheet" type="text/css" href="style_toitumine.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
@@ -30,14 +31,15 @@
                    
         
         <div class="Toitumine">
-            
+            <div class="Toitumise_info">
                 <h2 class="toit_pealkiri">TOITUMINE</h2>
-            <div class="reveal">
-                <p>
-                Tervislik ja korrektne toitumine tagab kehale vajaliku <span class="esiletoodud">energia</span>, <span class="esiletoodud">tervise</span> ning võimaldab lihastel saada <span class="esiletoodud">vajalikke toitaineid</span> ja <span class="esiletoodud">taastuda</span> pärast treeninguid. 
-                Igal toiduainel on oma toiteväärtus, mida mõõdetakse <span class="esiletoodud">kilodžaulides</span> (kJ) ja <span class="esiletoodud">kilokalorites</span> (kcal).
-                </p>
-            </div>
+                <div class="reveal">
+                    <p>
+                    Tervislik ja korrektne toitumine tagab kehale vajaliku <span class="esiletoodud">energia</span>, <span class="esiletoodud">tervise</span> ning võimaldab lihastel saada <span class="esiletoodud">vajalikke toitaineid</span> ja <span class="esiletoodud">taastuda</span> pärast treeninguid. 
+                    Igal toiduainel on oma toiteväärtus, mida mõõdetakse <span class="esiletoodud">kilodžaulides</span> (kJ) ja <span class="esiletoodud">kilokalorites</span> (kcal).
+                    </p>
+                </div>
+            
         
                 <h2 id="toit_tabel_pealkiri">Mis on sinu eesmärk?</h2>
 
@@ -51,8 +53,8 @@
                     <div class="reveal">
                         <li><span class="esiletoodud">Kaalu langetamine</span></li>
                     </div>
-                    
                 </ul>
+            </div>
 
             
         </div>
@@ -62,13 +64,13 @@
 
 
             <div class="säilitamise_info">
-                <div class="reveal">
-                    <h2 class="säilitamise_pealkiri">KAALU SÄILITAMINE</h2>
-                    <p>Kui eesmärgiks on <strong>kaalu säilitamine</strong>, alusta päevase kalorivajaduse arvutamisest – internetis leidub mitmeid kalkulaatoreid. 
+                
+                <h2 class="säilitamise_pealkiri">KAALU SÄILITAMINE</h2>
+                <p>Kui eesmärgiks on <strong>kaalu säilitamine</strong>, alusta päevase kalorivajaduse arvutamisest – internetis leidub mitmeid kalkulaatoreid. 
                     Oluline on jälgida ka <strong>makrotoitaineid:</strong> süsivesikud peaksid andma kuni <span class="arvud">50%</span>, valgud kuni <span class="arvud">25%</span> ja rasvad kuni <span class="arvud">25%</span> päevasest kaloraažist.
                     Kui tegeled aktiivselt spordiga ja soovid säilitada lihasmassi, võib olla kasulik suurendada valgukogust <span class="arvud">10%</span> võrra, vähendades samas süsivesikuid või rasvu, et hoida päevane kaloraaž muutumatuna.</p>
-                    <p><strong>Hea teada:</strong> Süües rohkem valgurikkaid toite, püsib täiskõhutunne kauem!</p>
-                </div>
+                <p><strong>Hea teada:</strong> Süües rohkem valgurikkaid toite, püsib täiskõhutunne kauem!</p>
+                
             </div>
 
 
@@ -136,23 +138,21 @@
             </div>   
             
             <div class="juurde_võtmise_info">
-                <div class="reveal">
-                    <h2 id="Juurde_võtmise_pealkiri">KAALU JUURDE VÕTMINE</h2>
-                    <p><strong>Kaalu juurde võtmise</strong> eesmärgiks on sageli <strong>lihasmassi suurendamine</strong>. Selle saavutamiseks on oluline, et keha saaks rohkem kaloreid kui tema tavapärane energiavajadus. Kui keha saab pikema aja jooksul rohkem kaloreid, suureneb kehakaal. Näiteks, kui inimese päevane energiavajadus on <span class="arvud">2750 kcal</span>, peaks ta kaalu kasvatamiseks tarbima umbes <span class="arvud">3250 kcal</span> päevas. 
+                <h2 id="Juurde_võtmise_pealkiri">KAALU JUURDE VÕTMINE</h2>
+                <p><strong>Kaalu juurde võtmise</strong> eesmärgiks on sageli <strong>lihasmassi suurendamine</strong>. Selle saavutamiseks on oluline, et keha saaks rohkem kaloreid kui tema tavapärane energiavajadus. Kui keha saab pikema aja jooksul rohkem kaloreid, suureneb kehakaal. Näiteks, kui inimese päevane energiavajadus on <span class="arvud">2750 kcal</span>, peaks ta kaalu kasvatamiseks tarbima umbes <span class="arvud">3250 kcal</span> päevas. 
                     NB! Soovitav on võtta nädalas juurde kuni üks kilogramm. Suurema kaalutõusu korral on risk, et enamik lisandunud massist on rasv, mitte lihas.</p>
-                </div>
+                
             </div>
         </div>
     
 
         
         <div class="Langetamine">
-            <div class="reveal">
                 <div class="langetamise_info">
                     <h2 class="langetamise_pealkiri">KAALU LANGETAMINE</h2>
                     <p><strong>Kaalu langetamisel</strong> on eesmärgiks just <strong>rasva protsendi vähendamine</strong>  kehas. Tuleb aga meeles pidada, et kaalu langetamine ei ole kiire protsess, vaid see võtab aega mitmeid kuid, olenevalt isiku enda eesmärkidest. Kaalu langetamisel on tähis meelespidada, et inimene peab tarbima sel ajal vähem kilokaloreid, kui on seda tema päevane kilokalori vajadus. Näiteks inimese päevane kcal kogus on <span class="arvud">2750 kcal</span>, siis kaalu langetus perioodil tuleb tal süüa kõigest <span class="arvud">2250 kcal</span>, ehk <strong>500 kcal</strong> päeva vähem kui tavaliselt.</p>
                 </div>
-            </div>
+            
             
 
             <div class="table-container">
