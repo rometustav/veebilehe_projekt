@@ -1,0 +1,101 @@
+/* Põhiline seadistus */
+* {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #272829;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.bolded {
+    font-weight: 600;
+}
+
+.divider {
+    display: block;
+    width: 1000px;
+    height: 4px;
+    background-color: #ADB6C4;
+    margin: 40px auto;
+    border-radius: 2px;
+}
+
+/* Header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    background: #ADB6C4;
+}
+
+.header img{
+    margin-left: 10px;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.name{
+    width: min-content;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.push {
+    margin-right: auto;
+}
+
+.menu{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu li{
+    margin: 0 15px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.menu li a:hover {
+    transform: scale(1.05);
+    color: #e6e8eb;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    background: #ADB6C4;
+}
+
+.footer ul{
+    width: fit-content;
+    list-style: none;
+}
+
+.footer ul li{
+    margin: 0 15px;
+}
+
+.footer img{
+    align-self: center;
+    margin-left: auto;
+    padding-right: 20px;
+    width: 100px;
+    height: 100px;
+}
