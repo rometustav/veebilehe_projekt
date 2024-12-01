@@ -89,11 +89,13 @@ body, html {
 }
 
 .footer ul li{
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .footer ul li p{
     margin: 10px;
+    font-size: 16px;
+    line-height: normal;
 }
 
 .footer img{

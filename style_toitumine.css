@@ -54,12 +54,20 @@ html {
 
 .Toitumise_info {
     padding: 2rem;
+    text-align: center;
+
+    p {
+        font-size: 21px;
+    }
 }
+
 
 .toit_pealkiri {
     text-align: center;
     color:#272829;
     font-weight: bold;
+    font-size: 32px;
+    margin-top: 10px;
 }
 
 .toit_pealkiri:after {
@@ -145,6 +153,10 @@ nav .list a{
     background-color: #D9D9D9;
     width: 1200px;
     max-height: 100%;
+
+    p {
+        margin-left: 90px;
+    }
 }
 
 .divider_wrapper {
@@ -210,6 +222,8 @@ nav .list a{
 
 .apid {
     padding: 2rem;
+    margin-left: 90px;
+    margin-right: 20px;
 }
 .Toitumisapid {
     width: 1200px;
@@ -220,6 +234,10 @@ nav .list a{
     font-size: 18px;
     line-height: 1.8;
 }
+.Toitumisapid, h2{
+    font-weight: bold;
+}
+
 .Toitumisapid, h3{
     font-weight: bold;
     font-size: 24px;
