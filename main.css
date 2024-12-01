@@ -92,6 +92,10 @@ body, html {
     margin: 0 15px;
 }
 
+.footer ul li p{
+    margin: 10px;
+}
+
 .footer img{
     align-self: center;
     margin-left: auto;
